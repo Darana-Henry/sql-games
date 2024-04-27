@@ -12,6 +12,8 @@ select personid from inhabitant where name = 'Stranger'
 
 select gold from inhabitant where personid = '20'
 
+select * from item where owner is null
+
 UPDATE item set owner = 20 WHERE  owner is null
 
 select * from item where owner = '20'
@@ -29,3 +31,21 @@ select * from inhabitant where job like '%pilot%'
 select inhabitant.name from inhabitant join village 
 on inhabitant.villageid = village.villageid 
 and chief = personid and village.name = 'Onionville'
+
+select count(*) from inhabitant, village 
+where village.villageid = inhabitant.villageid 
+and village.name = 'onionville' and inhabitant.gender = 'f'
+
+select inhabitant.name from inhabitant, village 
+where village.villageid = inhabitant.villageid 
+and village.name = 'onionville' and inhabitant.gender = 'f'
+
+select sum(gold) from inhabitant 
+where (job like '%baker%' or job like '%dealer%' or job like '%merchant%')
+
+select state, avg(inhabitant.gold) from inhabitant
+group by state order by avg(inhabitant.gold)
+
+delete from inhabitant where name = 'dirty diane'
+
+update inhabitant set state = 'friendly' where job like '%pilot%'
