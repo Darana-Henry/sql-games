@@ -1,7 +1,7 @@
 # SQL Island - A Fun Way to Learn SQL
 
 
-![SQL Island](https://imgur.com/a/LJAnAdS)
+![SQL Island](https://i.imgur.com/zlFOFww.png)
 
 Welcome to SQL Island, a fun and interactive game designed to help you learn SQL in an engaging way! 
 
