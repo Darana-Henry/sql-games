@@ -18,3 +18,5 @@ You'll have access to a variety of tables to aid in your investigation, includin
 Embark on this interactive journey to learn SQL in an engaging and immersive way. Discover the context behind each SQL command as you solve mysteries and demystify the world of databases.
 
 Happy sleuthing!
+
+![F](https://i.imgur.com/gNfddm9.gif)
