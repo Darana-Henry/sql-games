@@ -29,3 +29,6 @@ Whether you're new to SQL or looking to expand your skills, SQL Island is a grea
 
 Happy coding!
 
+![F](https://i.imgur.com/KQtuB11.gif)
+
+
